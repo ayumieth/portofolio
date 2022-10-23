@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link'
 import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import LangSelector from "../lang/langSelector";
 import { setDarkMode } from '../../redux/action/themeAction';
@@ -39,14 +38,6 @@ const Header = () => {
       </div>
     </>
   );
-}
-
-export async function getStaticProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ['common'])),
-    },
-  };
 }
 
 export default Header;
