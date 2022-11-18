@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useSelector } from "react-redux";
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import computer from "../public/computer.svg";
+import computer from "../public/Computer.svg";
 import Image from "next/image";
 
 export default function Home() {
