@@ -9,7 +9,7 @@ const Contact = () => {
     <>
       <div className={darkMode ? "dark" : ""}>
         <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-          <section className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px] dark:bg-gray-900">
+          {/* <section className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px] dark:bg-gray-900">
             <div className="container mx-auto">
               <div className="-mx-4 flex flex-wrap lg:justify-between">
                 <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -947,7 +947,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </main>
       </div>
     </>

@@ -3,6 +3,8 @@ import { appWithTranslation } from 'next-i18next';
 import Header from '../src/components/header';
 import Footer from '../src/components/footer';
 import '../styles/globals.css'
+import '../styles/home.css'
+import '../styles/header.css'
 import store from '../src/redux/store';
 
 function MyApp({ Component, pageProps }) {
